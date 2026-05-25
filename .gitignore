@@ -1,0 +1,20 @@
+# Personal planning files
+swe-exercises-plan.md
+to_learn.md
+validation-exercises-plan.md
+
+# Maven build output
+**/target/
+
+# macOS metadata files
+.DS_Store
+**/.DS_Store
+._*
+**/._*
+
+# IntelliJ IDEA
+.idea/
+**/*.iml
+
+# VS Code
+.vscode/
