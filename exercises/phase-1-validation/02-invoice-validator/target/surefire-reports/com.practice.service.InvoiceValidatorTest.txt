@@ -1,0 +1,164 @@
+-------------------------------------------------------------------------------
+Test set: com.practice.service.InvoiceValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.080 s <<< FAILURE! -- in com.practice.service.InvoiceValidatorTest
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenAllRulesPass -- Time elapsed: 0.023 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenAllRulesPass(InvoiceValidatorTest.java:224)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldCollectAllViolations_whenMultipleRulesBroken -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldCollectAllViolations_whenMultipleRulesBroken(InvoiceValidatorTest.java:208)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenTwoItemsHaveSameDescriptionAndPrice -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenTwoItemsHaveSameDescriptionAndPrice(InvoiceValidatorTest.java:177)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenAllQuantitiesArePositive -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenAllQuantitiesArePositive(InvoiceValidatorTest.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenSubscriptionPriceExceedsLimit -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenSubscriptionPriceExceedsLimit(InvoiceValidatorTest.java:126)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenVatRateIsInvalid -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenVatRateIsInvalid(InvoiceValidatorTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenConsultingPriceExceedsLimit -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenConsultingPriceExceedsLimit(InvoiceValidatorTest.java:136)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenPaymentDueWithin60Days -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenPaymentDueWithin60Days(InvoiceValidatorTest.java:166)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenGoodsPriceExceedsLimit -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenGoodsPriceExceedsLimit(InvoiceValidatorTest.java:98)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenItemsHaveSameDescriptionButDifferentPrice -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenItemsHaveSameDescriptionButDifferentPrice(InvoiceValidatorTest.java:188)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenLineItemHasZeroQuantity -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenLineItemHasZeroQuantity(InvoiceValidatorTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenVatRateIsFive -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenVatRateIsFive(InvoiceValidatorTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenVatRateIsZero -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenVatRateIsZero(InvoiceValidatorTest.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenLineItemHasNegativeQuantity -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenLineItemHasNegativeQuantity(InvoiceValidatorTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenServicesPriceExceedsLimit -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenServicesPriceExceedsLimit(InvoiceValidatorTest.java:116)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldReject_whenPaymentDueMoreThan60DaysAfterInvoice -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldReject_whenPaymentDueMoreThan60DaysAfterInvoice(InvoiceValidatorTest.java:148)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenVatRateIsTwenty -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenVatRateIsTwenty(InvoiceValidatorTest.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenGoodsPriceIsExactlyAtLimit -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenGoodsPriceIsExactlyAtLimit(InvoiceValidatorTest.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenItemsHaveDifferentDescriptionButSamePrice -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenItemsHaveDifferentDescriptionButSamePrice(InvoiceValidatorTest.java:197)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.practice.service.InvoiceValidatorTest.shouldApprove_whenPaymentDueExactly60DaysAfterInvoice -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not yet implemented
+	at com.practice.service.InvoiceValidator.validate(InvoiceValidator.java:10)
+	at com.practice.service.InvoiceValidatorTest.shouldApprove_whenPaymentDueExactly60DaysAfterInvoice(InvoiceValidatorTest.java:158)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

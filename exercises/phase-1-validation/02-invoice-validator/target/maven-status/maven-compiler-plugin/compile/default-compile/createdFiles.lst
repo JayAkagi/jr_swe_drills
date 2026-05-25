@@ -1,0 +1,6 @@
+com\practice\model\LineItem.class
+com\practice\model\InvoiceValidationResult.class
+com\practice\model\LineItemCategory.class
+com\practice\service\InvoiceValidator.class
+com\practice\model\Invoice.class
+com\practice\model\Violation.class
